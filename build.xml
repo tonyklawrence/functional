@@ -31,7 +31,7 @@
       </classpath>
 
       <batchtest>
-        <fileset dir="src/test/java" includes="*Test.java"/>
+        <fileset dir="src/test/java" includes="**/*Test.java"/>
       </batchtest>
     </junit>
   </target>
