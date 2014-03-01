@@ -29,6 +29,7 @@
     <junit printsummary="yes" haltonfailure="yes">
       <classpath>
         <path refid="lib.test"/>
+        <pathelement path="build/classes/main"/>
         <pathelement path="build/classes/test"/>
       </classpath>
 
