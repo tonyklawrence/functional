@@ -1,5 +1,6 @@
 package evil.ducks.fun;
 
+import java.util.ArrayList;
 import java.util.Iterator;
 
 public class Sequence<T> implements Iterable<T> {
@@ -7,6 +8,6 @@ public class Sequence<T> implements Iterable<T> {
 
     @Override
     public Iterator<T> iterator() {
-        throw new UnsupportedOperationException();
+        return new ArrayList<T>().iterator();
     }
 }
