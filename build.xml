@@ -35,6 +35,7 @@
       <batchtest>
         <fileset dir="src/test/java" includes="**/*Test.java"/>
       </batchtest>
+      <formatter type="brief" usefile="false"/>
     </junit>
   </target>
 
